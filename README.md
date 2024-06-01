@@ -1,10 +1,10 @@
 # PASSWORD STRENGTH TESTER
 ## Features
-- Strength
-- Score
+- Conditions to check the Password Strength
+- Password Strength
 - Insights of entered password
-# Strength
-| Conditions | Score |
+# Conditions to check the Password Strength
+| Conditions to check the password strength | Score |
 | ---------- | ----- |
 | Only small letters or big letters or numbers | 1 |
 | Combination of small letters and capital letters | 2 |
@@ -16,11 +16,16 @@
 | Combination of small letters,numbers and symbols (or) capital letters,numbers and symbols | 8 |
 | Combination of small letters,capital letters,numbers and symbols | 10 |
 
-# Score
-Based on password entered,the score will be determined according to the above table
+Score:
+Based on password entered,the score will be determined according to the above table.
 
+# Password Strength
+if the score is
+- Less than 3 then password is WEAK.
+- it is greater than 3 and less than 7 then password is MEDIUM.
+- Greater than 7 then password is STRONG.
 # Insights of entered password
-By observing  the password, we can know that how many characters and what kind of characters are present.By this observation we can predict the strength of the password. 
+
 ## Rules to make a strong password
 - The password should contain more than 7 characters.
 - It mustn't contain only one type of characters.
